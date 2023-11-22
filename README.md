@@ -69,8 +69,12 @@ Ablation experiment on the neck part.
 | CAFP(Ours) | 50.86             | 89.86             |
 
 Ablation experiment on the loss funcation.
+| LOSS                                           | SHTech Part A MAE | SHTech Part A MSE |
+| ---------------------------------------------- | ----------------- | ----------------- |
+| CE(classification)+MSE(regression)             | 60.95             | 102.89            |
+| MSE(number)+CE(classification)+MSE(regression) | 56.73             | 87.56             |
+| Ours                                           | 50.86             | 89.86             |
 
-come soon.
 
 ## Run
 
